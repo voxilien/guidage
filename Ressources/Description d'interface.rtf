@@ -1,0 +1,310 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww24480\viewh14580\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 Description d'interface\
+\
+\
+\
+\
+\
+\
+\
+\
+pr\'e9ambule\
+\
+\
+Le pr\'e9sent document contient les descriptions des diff\'e9rentes vues de l'application. Il permettra \'e0 l'\'e9quipe de d\'e9veloppement et au designer, d'\'eatre guid\'e9 dans le processus de cr\'e9ation de l'interface graphique.\
+Ce document est valable pour un d\'e9veloppement de l'application dans ses deux version, Android et iOS; il ne comporte en effet, aucune sp\'e9cification technique et se contente des descriptions des diff\'e9rents \'e9crans. Toutefois, les conventions propres \'e0 chaque environement devront \'eatres prises en compte. Par exemple, sous iOS, la section "Pr\'e9f\'e9rences" devra \'eatre visible dans l'application "R\'e9glages".\
+\
+\
+\
+\
+\
+\
+\
+\
+1 Accueil\
+\
+\
+Cette vue apparait au lancement de l'application. L'utilisateur peut \'e0 tout moment se rendre sur cette vue en secouant son t\'e9l\'e9phone. A la premi\'e8re utilisation, une boite de dialogue apparait, demandant \'e0 l'utilisateur l'autorisation d'utiliser ses donn\'e9es de localisation, et de lui envoyer des notifications.\
+\
+\
+Titre : Accueil\
+\
+Bouton Trajet (ouverture du menu trajet)\
+\
+Bouton Exploration : (ouverture  du menu d'exploration)\
+\
+Bouton Pr\'e9f\'e9rences (ouverture du menu de pr\'e9f\'e9rence)\
+\
+Bouton Boutique (ouvre la boutique de l'application, permettant \'e0 l'utilisateur de commander des accessoires et de g\'e9rer son abonnement. C'est \'e9galement l\'e0 que les utilisateurs pourront, s'il le souhaitent, faire un dont)\
+\
+Bouton Partager l'Application (ouverture du menu Partager l'Appllication, permet de partager l'application par message, courriel ou sur les r\'e9seaux sociaux)\
+\
+Bouton A Notre Propos (Ouvre une page contenant les coordonn\'e9es de l'association, une description de l'association et une courte pr\'e9sentation des membres de l'\'e9quipe)\
+\
+\
+\
+\
+2 Trajet\
+\
+\
+Cette vue apparait lorsque l'utilisateur presse le bouton "Trajet" \'e0 partir du menu d'accueil.\
+\
+\
+Bouton Accueil (Retour au menu d'accueil)\
+\
+Titre : Trajet\
+\
+Bouton Nouveau trajet (lance un nouveau trajet)\
+\
+Bouton Historique des trajets (ouvre la liste des trajets d\'e9j\'e0 parcourus par l'utilisateur)\
+\
+Bouton Rentrer chez moi (Lance un trajet du lieu courant vers le domicile de l'utilisateur. L'adresse est sp\'e9cifier dans la pr\'e9f\'e9rence correspondante.)\
+\
+\
+\
+\
+2.1 Nouveau Trajet\
+\
+Cette vue appara\'eet lorsque l'utilisateur presse le bouton "Nouveau Trajet" \'e0 partir du menu "Trajet".\
+\
+Bouton Trajet (retour au menu Trajet)\
+\
+Titre Nouveau Trajet\
+\
+Bouton Adresse (cr\'e9e un nouveau trajet vers une adresse)\
+\
+Bouton Lieu (cr\'e9e un nouveau trajet vers un lieu d'int\'e9r\'eat)\
+\
+\
+\
+\
+2.1.1 Adresse\
+\
+Cette vue appara\'eet lorsque l'utilisateur presse le bouton "Adresse" \'e0 partir du menu "Nouveau Trajet".\
+\
+Bouton Nouveau Trajet (retour au menu Nouveau Trajet)\
+\
+Titre Adresse de Destination\
+\
+Zone d'\'e9dition Ville (\'e9dition de la ville de destination, par d\'e9faut, le champ est remplie du nom de la ville courante)\
+\
+Liste de suggestions (affiche des suggestions de r\'e9sultat pour le champ en court d'\'e9dition)\
+\
+Bouton Pr\'e9c\'e9dent (gris\'e9 avant un appui sur le bouton suivant, il permet de revenir \'e0 l'\'e9tape pr\'e9c\'e9dente)\
+\
+Bouton Suivant (d\'e9grise le bouton Pr\'e9c\'e9dent, remplace le champ Ville par le champ Rue puis un nouvel appui le remplace par le champ Num\'e9ro de rue, puis son libell\'e9 change et il devient donc le bouton ci-dessous)\
+\
+Bouton Calcul du Trajet (ouvre un popup demandant \'e0 l'utilisateur si il souhaite d\'e9marrer ou simuler son trajet, puis ouvre la vue Itin\'e9raire)\
+\
+\
+\
+\
+2.1.2 Lieu\
+\
+\
+Cette vue appara\'eet lorsque l'utilisateur presse le bouton "Lieu" \'e0 partir du menu "Nouveau Trajet".\
+\
+\
+Bouton Nouveau Trajet (retour au menu Nouveau Trajet)\
+\
+Titre lieu\
+\
+Zone d'\'e9dition Recherche (recherche un lieu d'apr\'e8s son nom dans la zone pr\'e9cis\'e9e dans la section Pr\'e9f\'e9rences)\
+\
+Liste enende r\'e9sultats (liste dynamique de r\'e9sultats, la liste s'actualise en temps r\'e9el en fonction du texte saisi, l'utilisateur touche simplement l'\'e9l\'e9ment vers lequel il souhaite se rendre. Cette liste contient 2 champs, : Nom du lieu et Adresse du lieu.)\
+\
+[appui sur un nom de lieu] (ouvre un popup demandant \'e0 l'utilisateur si il souhaite d\'e9marrer ou simuler son trajet, puis ouvre la vue  Itin\'e9raire)\
+\
+\
+\
+\
+2.1.1.1 Itin\'e9raire\
+\
+\
+Cette vue appara\'eet lorsque l'utilisateur presse le bouton "Calculer le Trajet" \'e0 partir du menu "Adresse", ou si il touche un r\'e9sultat dans la liste du menu "Lieu"\
+\
+\
+Bouton Pr\'e9c\'e9dent (retour au menu pr\'e9c\'e9dent)\
+\
+Titre Itin\'e9raire\
+\
+Liste des itin\'e9raires trouv\'e9s (l'utilisateur touche simplement l'itin\'e9raire qu'il souhaite suivre pour son trajet, ce qui ouvre la vue Navigation. Chaque \'e9l\'e9ment de la liste comporte 4 champs : Avantage ; Dur\'e9e ; Num\'e9ro de ligne ; Nombre de changement)\
+\
+\
+\
+\
+2.1.1.1.1 Navigation\
+\
+\
+Cette vue appara\'eet lorsque l'utilisateur touche un r\'e9sultat dans la liste d'itin\'e9raires. A partir de cette \'e9tape, l'utilisateur peut v\'e9rouiller son \'e9cran et se laisser guider par la synth\'e8se vocale.\
+\
+\
+Bouton Pr\'e9c\'e9dent (retour au menu pr\'e9c\'e9dent)\
+\
+Label Lieu courant (nom de l'adresse courante; ou de l'arr\'eat courant si l'utilisateur est dans un transport)\
+\
+Case \'e0 cocher Points d'Int\'e9r\'eat (active ou d\'e9sactive l'\'e9nonciation des points d'int\'e9r\'eat)\
+\
+Bouton Instruction (r\'e9p\'e8te la derni\'e8re instruction)\
+\
+Bouton prochain passage (\'e9nonce l'horaire du prochain passage du prochain transport \'e0 emprunter, permettant ainsi \'e0 l'utilisateur d'adapter sa vitesse de marche. L'\'e9nonciation se fait comme suit :\
+Ligne [num\'e9ro de ligne] direction [nom de la direction], prochain passage dans N minutes, le suivant dans N minutes)\
+\
+Bouton Ajouter une balise (ajoute une balise au lieu courant. La vue balise s'ouvre)\
+\
+Bouton Au Secoure  ! (lance un appel \'e0 l'\'e9quipe d'assistance. Un popup s'ouvre demandant \'e0 l'utilisateur une confirmation d'appel)\
+\
+Case \'e0 cocher Carte visuelle (Affiche ou non la carte)\
+\
+\
+\
+\
+2.2 Historique\
+\
+Cette vue appara\'eet lorsque l'utilisateur presse le bouton "Historique des Trajets" \'e0 partir du menu "Trajet".\
+\
+\
+Bouton Trajet (retour au menu Trajet)\
+\
+Liste des N derniers trajets effectu\'e9 du plus r\'e9cent au plus ancien (N d\'e9pend de la valeur plac\'e9 en pr\'e9f\'e9rence) Chaque ligne se pr\'e9sente comme suit :\
+[Point de d\'e9part] vers [point d'arriv\'e9e] via la ligne [num\'e9ro de le ou des lignes]\
+L'utilisateur touche simplement la ligne correspondant \'e0 son choix, ce qui ouvre un popup lui demandant s'il souhaite simuler ou d\'e9marrer son trajet...\
+\
+\
+\
+\
+3 Exploration\
+\
+\
+Cette vue apparait lorsque l'utilisateur presse le bouton "Exploration" \'e0 partir du menu d'accueil.\
+\
+\
+Bouton Accueil (Retour au menu d'accueil)\
+\
+Titre : Exploration\
+\
+Bouton D\'e9marrer l'exploration (D\'e9marre l'exploration de l'environnement de l'utilisateur)\
+\
+S\'e9rie de cases \'e0 cocher (Permettant \'e0 l'utilisateur de choisir les lieux qui lui seront \'e9nonc\'e9s pendant l'exploration, en fonction d'une cat\'e9gorie. Les cases seront pr\'e9-coch\'e9es conform\'e9ment aux r\'e9glages de l'utilisateur de la section Pr\'e9f\'e9rences)\
+\
+\
+\
+\
+4 Pr\'e9f\'e9rences\
+\
+4 Menu Pr\'e9f\'e9rences\
+\
+\
+Cette vue apparait lorsque l'utilisateur presse le bouton "Pr\'e9f\'e9rences" \'e0 partir du menu d'accueil.\
+\
+\
+Bouton Accueil (retour au menu d'accueil)\
+\
+Titre Pr\'e9f\'e9rences\
+\
+Bouton G\'e9n\'e9ral (ouvre le menu contenant les pr\'e9f\'e9rences g\'e9n\'e9rale de l'application)\
+\
+Bouton A Pied (ouvre les pr\'e9f\'e9rences du mode pi\'e9ton)\
+\
+Bouton Transport (ouvre les pr\'e9f\'e9rences du mode Transport)\
+\
+Bouton Exploration (ouvre les pr\'e9f\'e9rences du mode Exploration)\
+\
+\
+\
+\
+5 Boutique\
+\
+\
+Cette vue apparait lorsque l'utilisateur presse le bouton "Boutique" \'e0 partir du menu d'accueil.\
+\
+\
+Bouton Accueil (retour au menu d'accueil)\
+\
+Titre Boutique\
+\
+Bouton Votre Abonnement (Ouverture d'un popup indiquant \'e0 l'utilisateur le statut de son abonnement et lui proposant de se d\'e9sabonner, ce bouton est visible uniquement si l'utilisateur est abonn\'e9)\
+\
+Bouton Vous Abonner (Ouverture du menu Vous Abonner)\
+\
+Bouton Accessoires (ouverture du menu Accessoires)\
+\
+Bouton Liste d'Entre Aide (Ouverture du menu Liste d'Entre Aide)\
+\
+Bouton Lettre d'information (ouverture du menu Lettre d'information)\
+\
+Bouton Faire un Dont (ouverture du menu Faire un Dont)\
+\
+\
+\
+\
+6 Partager l'Application\
+\
+\
+Cette vue apparait lorsque l'utilisateur presse le bouton "Partager l'Application" \'e0 partir du menu d'accueil.\
+\
+\
+Bouton accueil (retour au menu d'accueil)\
+\
+Titre Partager l'Application\
+\
+Bouton sur Facebook\
+\
+Bouton sur Twitter\
+\
+Bouton par courriel\
+\
+Bouton par SMS\
+\
+\
+\
+\
+7 A Notre Propos\
+\
+\
+Cette vue apparait lorsque l'utilisateur presse le bouton "A Notre Propos" \'e0 partir du menu d'accueil.\
+\
+\
+Bouton accueil (retour au menu d'accueil)\
+\
+Titre A Notre Propos\
+\
+Sous-titre Nous contacter\
+\
+0663470287 --Tous les jours de 8:00 \'e0 20:00, appel non surtax\'e9. (comporte un lien sur le num\'e9ro de t\'e9l\'e9phone)\
+\
+nouscontacter@accessit-laboratory.fr\
+\
+www.accessit-laboratory.fr (comporte un lien vers le site web de l'association)\
+\
+Association Access IT Laboratory\
+48 Rue Eug\'e8ne Oudin\'e9\
+75013 Paris\
+\
+Pour nous rendre visite via l\'92application, touchez le bouton ci-dessous :\
+\
+Bouton Me rendre chez Access IT\
+\
+Bouton Visiter la page Facebook\
+\
+Bouton Nous suivre sur Twiter\
+t\
+Sous-titre Access IT c'est quoi?\
+\
+Courte description de l'association, sa phylosophie, ses choix, ses objectifs \'e0 court et long terme.\
+\
+Sous-titre Access IT c'est qui?\
+\
+Quelques mots \'e0 propos de chaque membre de l'\'e9quipe.\
+\
+Sous-titre Les t\'e9moignages\
+\
+Quelques t\'e9moignages de personnes \'e0 propos de nos applications et de notre \'e9quipe.\
+\
+Bouton T\'e9moignez Vous Aussi (ouverture du menu T\'e9moignez Vous Aussi. Il comporte un chant de texte, un bouton Envoyer et un bouton Annuler)\
+}

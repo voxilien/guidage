@@ -1,0 +1,6 @@
+metroVocal.controller('mainCtrl', ['$scope', '$ionicPlatform', function($scope, $ionicPlatform) {
+	    $ionicPlatform.ready(function() {
+
+		});
+
+	}]);

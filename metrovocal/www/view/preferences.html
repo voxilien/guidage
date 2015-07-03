@@ -1,0 +1,18 @@
+
+<ion-header-bar class="bar bar-light">
+<button aria-label="Bouton de retour" class="button icon ion-navicon" type="button" ng-click="goToPrevious()"></button>
+<h1 class="title">Préférences</h1>
+</ion-header-bar>
+
+<ion-content>
+<form ng-submit="setPreferences()">
+<select ng-model="langue">
+<option value="fr-FR" selected>Français</option>
+<option value="en-US">English</option>
+</select>
+<p>
+<input type="submit" value="Ok"/>
+</p>
+</form>
+</ion-content>
+</ion-view>
