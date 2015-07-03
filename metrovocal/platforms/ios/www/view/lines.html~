@@ -1,0 +1,12 @@
+<ion-view>
+<ion-header-bar class="bar bar-light">
+<button aria-label="Bouton de retour" class="button icon ion-navicon" type="button" ng-click="goToPrevious()"></button>
+<span class="title">Lignes de transports</span>
+</ion-header-bar>
+
+<ion-content>
+<ion-p>
+Sélectionnez la ligne que vous souhaitez emprunter
+<ion-/p>
+</ion-content>
+</ion-view>

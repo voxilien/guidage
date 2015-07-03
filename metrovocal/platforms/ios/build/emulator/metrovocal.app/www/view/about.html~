@@ -1,0 +1,10 @@
+<ion-view>
+<ion-header-bar class="bar bar-light">
+<button aria-label="Bouton de retour" class="button icon ion-navicon" type="button" ng-click="goToPrevious()"></button>
+<span class="title">A propos</span>
+</ion-header-bar>
+
+<ion-content>
+Contenu de la page.
+</ion-content>
+</ion-view>

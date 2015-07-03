@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+
+    <!-- Complementaries modules -->
+    <script src="lib/angular/angular-route.js"></script>
+
+    <!-- Routing table -->
+    <script src="js/routes/routes.js"></script>
+
+    <!-- Controllers -->
+    <script src="js/controllers/main.js"></script>
+    <script src="js/controllers/home.js"></script>
+    <script src="js/controllers/about.js"></script>
+    <script src="js/controllers/lines.js"></script>
+    <script src="js/controllers/preferences.js"></script>
+
+    <!-- Services -->
+    <script src="js/services/station.js"></script>
+    <script src="js/services/speech.js"></script>
+    <script src="js/services/location.js"></script>
+    <script src="js/services/trip.js"></script>
+  </head>
+  <body ng-app="metrovocalApp" class="platform-ios platform-cordova platform-webview">
+
+    <ion-pane ng-controller="mainCtrl" ng-view="">
+    </ion-pane>
+    <ion-footer-bar>
+      Par Ludovic SANSONE et Bill ROUSSEAU
+    </ion-footer-bar>
+  </body>
+</html>

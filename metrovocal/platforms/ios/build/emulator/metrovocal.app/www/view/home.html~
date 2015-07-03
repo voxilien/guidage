@@ -1,0 +1,15 @@
+<ion-view>
+<ion-header-bar class="bar bar-light"> 
+  <span class="title">Accueil</span>
+</ion-header-bar>
+<ion-content>
+<nav>
+<button class="button button-block" onclick="window.location.href = '#/lines'" type="button" value="lines">Lignes de transports</button>
+<button class="button button-block" onclick="window.location.href = '#/preferences'" type="button" value="preferences">Préférences</button>
+
+<button class="button button-block" type="button" value="about" ng-click="goToAbout()">about</button>
+
+
+</nav>
+</ion-content>
+</ion-view>
