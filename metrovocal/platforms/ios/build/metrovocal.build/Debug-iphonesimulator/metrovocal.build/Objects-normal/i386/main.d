@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/metrovocal/main.m
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/metrovocal/main.m

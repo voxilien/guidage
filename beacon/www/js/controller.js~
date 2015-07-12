@@ -1,0 +1,29 @@
+beacon.controller('mainCtrl', ['$scope', function($scope) {
+	    alert("Je suis mainCtrl");
+
+	    // Scanning de l'environnement et affichage du nom de la station
+	    $scope.scanneBeacons = function() {
+		// Variables de test
+		var uuid = "B2211AAA-6688-4225-9BB9-66EEFF4455AA"; // UUID du réseau voxilien
+		var identifier = "Nom de la station"; // Nom explicite de la région
+		var major = 1; // Identifiant de la station sur le réseau, par défaut
+		var minor = 1; // Identifiant de l'étape dans la station par défaut
+
+		// Création d'une région correspondant à une station
+		var stationRegion = new cordova.plugins.locationManager.BeaconRegion(identifier, uuid, major);
+
+		// Impémentation des différentes fonctions de callback qui seront appelées lors des évènements repéré par la fonction startMonitoringForRegion
+
+		// La région est détectable
+
+		// Le monitoring a démarré
+
+		// Entrée dans la région demandée
+
+
+
+
+		alert("Scanning activé");
+
+	    };
+	}]);

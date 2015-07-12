@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h

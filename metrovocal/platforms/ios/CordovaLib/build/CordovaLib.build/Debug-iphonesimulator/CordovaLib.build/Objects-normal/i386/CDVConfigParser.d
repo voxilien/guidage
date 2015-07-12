@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/CordovaLib/Classes/CDVConfigParser.m \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/CordovaLib/Classes/CDVConfigParser.m \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/CordovaLib/Classes/CDVConfigParser.h

@@ -1,24 +1,24 @@
 dependencies: \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/metrovocal/Plugins/cordova-plugin-device/CDVDevice.m \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDV.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVDebug.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVTimer.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/build/emulator/include/Cordova/CDVJSON.h \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/metrovocal/Plugins/cordova-plugin-device/CDVDevice.h
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/metrovocal/Plugins/cordova-plugin-device/CDVDevice.m \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDV.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVDebug.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVTimer.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/build/emulator/include/Cordova/CDVJSON.h \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/metrovocal/Plugins/cordova-plugin-device/CDVDevice.h

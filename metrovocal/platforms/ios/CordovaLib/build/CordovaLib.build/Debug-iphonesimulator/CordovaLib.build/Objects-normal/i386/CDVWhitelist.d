@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/CordovaLib/Classes/CDVWhitelist.m \
-  /Users/ludovicsansone/metrovocal_backup/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/CordovaLib/Classes/CDVWhitelist.m \
+  /Users/bill_rousseau/voxilien/guidage/metrovocal/platforms/ios/CordovaLib/Classes/CDVWhitelist.h

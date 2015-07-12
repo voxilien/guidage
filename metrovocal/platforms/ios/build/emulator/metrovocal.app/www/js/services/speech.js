@@ -8,7 +8,6 @@ metroVocal.service('speech', function(station, $ionicPlatform) {
 				    ttsPlugin.speak("Départ à la station, " + station.name);
 				    return;
 				}
-				alert(station.name);
 			    ttsPlugin.speak(station.name + "?");
 			    setTimeout(function() {
 				    ttsPlugin.speak(station.name);
